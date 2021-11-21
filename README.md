@@ -1,7 +1,7 @@
 # Desafio CRUD com Sequelize - Blanko
 
 O frontend apresenta uma tabela que é alimentada por dados de usuários salvos em um banco relacional,
-permetindo fazer requisições para criar, alterar ou deletar estes usuários.
+permitindo realizar requisições para criar, alterar ou deletar estes usuários.
 
 
 ## Executar localmente
@@ -13,7 +13,7 @@ git clone https://github.com/yuridreis/blanko-challenge.git
 yarn
 ```
 
-Alterar os dados do seu banco de dados no arquivo "server/config/config_db.js" e utilizar o sequelize para criar o banco caso necessário.
+Alterar os dados para utilizar seu banco de dados no arquivo "server/config/config_db.js" e utilizar o sequelize para criar o banco caso necessário.
 
 ```sh
 yarn sequelize db:create
@@ -26,6 +26,7 @@ yarn sequelize db:migrate
 ```
 
 Inicializar o servidor e o front-end.
+
 ```sh
 yarn start
 npx lite-server
