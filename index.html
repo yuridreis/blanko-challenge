@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="inner-header wrap">
+            <a href="" class="logo">Admin Panel</a>
+        </div>
+    </header>
+
+    <main class="main wrap">
+
+        <header>
+            <h1>Listagem de Usuários</h1>
+            <button id="create-user">Cadastrar Novo Usuário</button>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>E-mail</td>
+                    <td>Ações</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </main>
+
+    <section class="fade">
+        <div class="popup">
+            <form method="POST">
+                <h1>Cadastro de Usuário</h1>
+                <div>
+                    <span>Nome</span>
+                    <input id="form-name" type="text" name="nome" placeholder="Nome" required>
+                </div>
+                <div>
+                    <span>E-mail</span>
+                    <input id="form-email" type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <footer>
+                    <button class="send">Enviar</button>
+                    <button class="close">Fechar</button>
+                </footer>
+            </form>
+        </div>
+    </section>
+
+    <section class="fade-edit">
+        <div class="popup">
+            <form method="POST">
+                <h1>Edição de Usuário</h1>
+                <div>
+                    <span>Nome</span>
+                    <input id="edit-name" type="text" name="nome" placeholder="Nome" required>
+                </div>
+                <div>
+                    <span>E-mail</span>
+                    <input id="edit-email" type="email" name="email" placeholder="E-mail" required>
+                </div>
+                    <input style="display:none;" id="edit-id" type="text" name="id">
+                <footer>
+                    <button class="send">Enviar</button>
+                    <button class="close">Fechar</button>
+                </footer>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
