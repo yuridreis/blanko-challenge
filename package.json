@@ -1,5 +1,5 @@
 {
-  "name": "Crud Blanko",
+  "name": "crud_blanko",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -14,5 +14,7 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.12.0-alpha.1",
     "sequelize-cli": "^6.3.0"
-  }
+  },
+  "repository": "https://github.com/yuridreis/blanko-challenge.git",
+  "author": "Yuri Reis <yuriazdreis@gmail.com>"
 }
