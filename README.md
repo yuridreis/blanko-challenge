@@ -1,4 +1,4 @@
-# Desafio CRUD com Sequelize - Blanko
+# CRUD utilizando Sequelize
 
 O frontend apresenta uma tabela que é alimentada por dados de usuários salvos em um banco relacional,
 permitindo realizar requisições para criar, alterar ou deletar estes usuários.
