@@ -9,7 +9,7 @@ permitindo realizar requisições para criar, alterar ou deletar estes usuários
 Realizar a clonagem do repositório e instalar as dependências.
 
 ```sh
-git clone https://github.com/yuridreis/blanko-challenge.git
+git clone https://github.com/yuridreis/crud-sequelize.git
 yarn
 ```
 
